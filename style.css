@@ -1,0 +1,1622 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width:100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color:inherit;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-toggle {
+    visibility: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    padding: 10px 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .zomato-logo{
+    width: 280px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    bottom: -49px;
+}
+.para{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 38px;
+    opacity: 0.8;
+    font-weight: 50;
+}
+.span{
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 120px;
+    font-size: 38px;
+    opacity: 0.8;
+    font-weight: 50;
+}
+.section1{
+    width:100%;
+    height:1600px;
+}
+.container1{
+    width:100%;
+    height:300px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    
+}
+.head h4 {
+    font-size: 35px;
+    padding-top: 0;
+    opacity: 0.8;
+    font-weight: lighter;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.head img{
+    padding: 5px;
+    padding-top: 0;
+    width:5%;
+}
+.head span{
+    font-size: 35px;
+    padding: 2px;
+    padding-top: 0;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.p{
+    width:100%;
+    height:150px;
+    font-size: 22px;
+    padding-top: 0;
+}
+.p p{
+    padding-left: 220px;
+    opacity: 0.6;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.p span{
+    padding-left: 270px;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.container2{
+    width:100%;
+    height:1200px;
+    display: flex;
+}
+
+.col1{
+    width:35%;
+    height: 100%;
+}
+.col2{
+    width:30%;
+    height: 100%;
+}
+.col3{
+    width:35%;
+    height: 100%;
+}
+.input1{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight:100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input2{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input3{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input4{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input5{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input6{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input7{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input8{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input9{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input10{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+
+.input11{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input12{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input13{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input14{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input15{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input16{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input17{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input18{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input19{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input20{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input21{
+    width:80%;
+    height:65px;
+    border-radius: 8px;
+    margin-left: 18px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input22{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input23{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input24{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input25{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input26{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input27{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input28{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input29{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input30{
+    width:80%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.footer{
+    width:100%;
+    height:500px;
+    background:rgb(213, 224, 212);
+}
+.container3{
+    display: flex;
+    width:100%;
+    height:400px;
+}
+.part1{
+    width:25%;
+    height:400px;
+}
+.part1 img{
+    width:40%;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.part1 h5{
+    margin-left: 130px;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.part1 ul{
+    margin-left: 90px;
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.part1 ul li{
+    padding: 5px;
+    font-size: 15px;
+}
+.part2{
+    width:15%;
+    height:400px;
+}
+.part2 h5{
+    margin-top: 150px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.part2 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0;
+}
+.part2 ul li{
+    padding: 5px;
+    font-size: 15px;  
+}
+.part3{
+    width:20%;
+    height:400px;
+}
+.head1{
+    margin-top: 145px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.head2{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.part3 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0;  
+}
+.part3 ul li{
+    font-size: 15px;
+    padding: 5px;
+}
+.part4{
+    width:15%;
+    height:400px;
+}
+.part4 h5{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500; 
+    margin-top: 145px;
+}
+.part4 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0; 
+}
+.part4 ul li{
+    font-size: 15px;
+    padding: 5px;
+}
+.part5{
+    width:25%;
+    height:400px;
+}
+.buttonpart{
+    width:100%;
+    height:130px;
+}
+.buttonpart button{
+    width:38%;
+    height:40px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-top: 50px;
+    border-radius: 6px;
+    border-width: 1px;
+
+}
+.buttonimage{
+    width:21%;
+}
+.downbutton{
+    width:20%;
+}
+.buttonglob{
+    width:15%;
+}
+.icons{
+    width:100%;
+}
+.icons h5{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 80px;   
+}
+.image1{
+    width:23px;
+}
+.image2{
+    width:23px;
+}
+.image3{
+    width:23px;
+}
+.image4{
+    width:23px;
+}
+.image5{
+    width:23px;
+}
+.iconimages{
+    margin-left: 60px;
+}
+.logos{
+    width:100%;
+    height:100px;
+    margin-top: 25px;
+}
+.logoimage1{
+    width:50%;
+}
+.logoimage2{
+    width:50%;
+}
+.logoimages{
+    margin-left: 50px; 
+}
+.conclude{
+    width:100%;
+    height:80px;
+}
+.line{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.downpara{
+    margin-left: 130px;
+    margin-top: 25px;
+    font-size:14px;
+    opacity:0.7;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.section2{
+    width:100%;
+    height:450px;
+    background-color: rgb(231, 237, 239);
+}
+#msg{
+    color:green;
+    display:block;
+}
+
+
+@media (max-width: 900px) {
+    .image-container{
+        position: relative;
+        width: 900px;
+        height: 450px;
+    }
+    .image-container img{
+        width: 900px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .menu {
+      visibility:hidden;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color:inherit;
+      width: 100%;
+      
+    }
+    .menu-toggle {
+        visibility:visible;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+      }
+      .zomato-logo{
+        width: 250px;
+    }
+    .header-body-content{
+        position: relative;
+        bottom: 10px;
+    }
+    .container-header-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+    }
+    .para{
+        font-family: Okra, Helvetica, sans-serif;
+        font-size: 30px;
+        opacity: 0.8;
+        font-weight: 50;
+    }
+    .span{
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 90px;
+        font-size: 30px;
+        opacity: 0.8;
+        font-weight: 50;
+    }
+    .section1{
+        width:900px;
+        height:1220px;
+    }
+    .container1{
+        width:900px;
+        height:220px;
+       
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        width:900px;
+        height: 40px;
+        
+    }
+    .head h4 {
+        font-size: 30px;
+        padding-top: 0;
+        margin-left: 0px;
+        opacity: 0.8;
+        font-weight: lighter;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .head img{
+        padding: 5px;
+        padding-top: 0;
+        width:6%;
+    }
+    .head span{
+        font-size: 30px;
+        padding: 2px;
+        padding-top: 0;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+    .p{
+        width:900px;
+        height:50px;
+        font-size: 19px;
+        padding-top: 0;
+    }
+    .p p{
+        padding-left: 30px;
+        opacity: 0.6;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .p span{
+        padding-left: 200px;
+        font-family: Okra, Helvetica, sans-serif;
+    
+    }
+    .container2{
+        display: flex;
+        width:900px;
+        height:1000px;
+    }
+    
+    .col1{
+        width:300px;
+        height:1120px;
+    }
+    .col2{
+        width:300px;
+        height:1020px;
+    }
+    .col3{
+        width:300px;
+        height:1050px;
+    }
+    .col1 > input{
+        width:70%;
+        height:50px;
+        margin-left: 60px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .col2 > input{
+        width:70%;
+        height:50px;
+        margin-left: 40px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .col3 > input{
+        width:72%;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .footer{
+        width:900px;
+        height:400px;
+        background:rgb(248, 248, 248);
+    }
+    .container3{
+        display: flex;
+        width:900px;
+        height:400px;
+    }
+    .part1{
+        width:180px;
+        height:300px;
+    }
+    .part1 img{
+        width:50%;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .part1 h5{
+        font-size: 15px;
+        margin-left: 40px;
+        padding-top: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .part1 ul{
+        margin-left: 15px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .part1 ul li{
+        padding: 3px;
+        font-size: 15px;
+    }
+    .part2{
+        width:160px;
+        height:200px;
+    }
+    .part2 h5{
+        margin-top: 2px;
+        margin-left: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .part2 ul{
+        margin-left: 40px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0;
+    }
+    .part2 ul li{
+        padding: 5px;
+        font-size: 15px;  
+    }
+    .part3{
+        width:180px;
+        height:220px;
+    }
+    .head1{
+        margin-top: 0px;
+        margin-left: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .head2{
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .part3 ul{
+        margin-left: 30px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0;  
+    }
+    .part3 ul li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .part4{
+        width:160px;
+        height:200px;
+    }
+    .part4 h5{
+        margin-left: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500; 
+        margin-top: 20px;
+    }
+    .part4 ul{
+        margin-left: 40px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0; 
+    }
+    .part4 ul li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .part5{
+        width:180px;
+        height:400px;
+    }
+    .buttonpart{
+        display: flex;
+        width:50%;
+        height:130px;
+    }
+    .buttonpart button{
+        width:100%;
+        height:30px;
+        font-size: 10px;
+        font-family: Okra, Helvetica, sans-serif;
+        opacity: 0.8;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 4px;
+        border-width: 1px;
+    
+    }
+    .buttonimage{
+        width:40%;
+    }
+    .downbutton{
+        width:20%;
+    }
+    .buttonglob{
+        width:40%;
+    }
+    .icons{
+        width:50%;
+    }
+    .icons h5{
+        margin-top: 0px;
+        margin-left: 0px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;   
+    }
+    .image1{
+        width:23px;
+    }
+    .image2{
+        width:23px;
+    }
+    .image3{
+        width:23px;
+    }
+    .image4{
+        width:23px;
+    }
+    .image5{
+        width:23px;
+    }
+    .iconimages{
+        margin-left: 100px;
+    }
+    .logos{
+        width:100%;
+        height:100px;
+        margin-top: 25px;
+    }
+    .logoimage1{
+        width:70%;
+    }
+    .logoimage2{
+        width:70%;
+    }
+    .logoimages{
+        margin-left:50px; 
+    }
+    .conclude{
+        width:900px;
+        height:100px;
+    }
+    .line{
+        margin-left:20px;
+        margin-right:100px;
+    }
+    .downpara{
+        margin-left: 10px;
+        margin-top: 25px;
+        font-size:10px;
+        opacity:0.7;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    
+    
+  }
+
+  
+  @media (max-width: 600px) {
+    .image-container{
+        position: relative;
+        width: 600px;
+        height: 280px;
+    }
+    .image-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .menu {
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color:inherit;
+      width: 100%;
+      
+    }
+    .menu-toggle {
+        visibility:visible;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+      }
+      .zomato-logo{
+        width: 100px;
+    }
+    .header-body-content{
+        position: relative;
+        bottom: 80px;
+    }
+    .container-header-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+    }
+    .para{
+        font-family: Okra, Helvetica, sans-serif;
+        font-size: 20px;
+        opacity: 0.8;
+        font-weight: 50;
+    }
+    .span{
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 60px;
+        font-size: 20px;
+        opacity: 0.8;
+        font-weight: 50;
+    }
+    .section1{
+        width:600px;
+        height:3400px;
+    }
+    .container1{
+        width:500px;
+        height:220px;
+       
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        width:600px;
+        height: 40px;
+        
+    }
+    .head h4 {
+        font-size: 25px;
+        padding-top: 0px;
+        margin-top: 40px;
+        margin-left: 0px;
+        opacity: 0.8;
+        font-weight: lighter;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .head img{
+        padding: 5px;
+        padding-top: 0;
+        margin-top: 40px;
+        width:5%;
+    }
+    .head span{
+        font-size: 25px;
+        padding: 2px;
+        padding-top: 0;
+        margin-top: 40px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+    .p{
+        width:500px;
+        height:50px;
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .p p{
+        padding-left: 35px;
+        margin-top: 40px;
+        opacity: 0.6;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .p span{
+        padding-left: 35px;
+        font-family: Okra, Helvetica, sans-serif;
+    
+    }
+    .container2{
+        display: block;
+        width:600px;
+        height:850px;
+    }
+    
+    .col1{
+        width:500px;
+        height:1120px;
+    }
+    .col2{
+        width:500px;
+        height:1020px;
+    }
+    .col3{
+        width:500px;
+        height:1050px;
+    }
+    .col1 > input{
+        width:70%;
+        height:65px;
+        margin-left: 60px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .col2 > input{
+        width:70%;
+        height:65px;
+        margin-left: 60px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .col3 > input{
+        width:70%;
+        height:65px;
+        margin-left: 60px;
+        margin-top: 35px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 100;
+        padding-left: 20px;
+        cursor: pointer;
+        border:2px solid rgb(232, 232, 232);
+        background-color:rgb(255, 255, 255);  
+    }
+    .footer{
+        display: grid;
+        width:600px;
+        height:1400px;
+        background:rgb(248, 248, 248);
+    }
+    .container3{
+        display: grid;
+        width:600px;
+        height:1300px;
+    }
+    .part1{
+        width:600px;
+        height:400px;
+    }
+    .part1 img{
+        width:30%;
+        margin-left: 130px;
+    }
+    .part1 h5{
+        margin-left: 130px;
+        padding-top: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .part1 ul{
+        margin-left: 90px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    .part1 ul li{
+        padding: 3px;
+        font-size: 15px;
+    }
+    .part2{
+        width:600px;
+        height:200px;
+    }
+    .part2 h5{
+        margin-top: 2px;
+        margin-left: 130px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .part2 ul{
+        margin-left: 130px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0;
+    }
+    .part2 ul li{
+        padding: 5px;
+        font-size: 15px;  
+    }
+    .part3{
+        width:100%;
+        height:200px;
+    }
+    .head1{
+        margin-top: 20px;
+        margin-left: 130px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .head2{
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 4px;
+    }
+    .part3 ul{
+        margin-left: 130px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0;  
+    }
+    .part3 ul li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .part4{
+        width:100%;
+        height:200px;
+    }
+    .part4 h5{
+        margin-left: 130px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500; 
+        margin-top: 20px;
+    }
+    .part4 ul{
+        margin-left: 130px;
+        list-style: none;
+        opacity: 0.8;
+        font-family: Okra, Helvetica, sans-serif;
+        padding-left: 0; 
+    }
+    .part4 ul li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .part5{
+        width:100%;
+        height:300px;
+    }
+    .buttonpart{
+        width:70%;
+        height:130px;
+    }
+    .buttonpart button{
+        width:38%;
+        height:40px;
+        font-size: 20px;
+        font-family: Okra, Helvetica, sans-serif;
+        opacity: 0.8;
+        margin-top: 10px;
+        margin-left: 40px;
+        border-radius: 4px;
+        border-width: 1px;
+    
+    }
+    .buttonimage{
+        width:21%;
+    }
+    .downbutton{
+        width:20%;
+    }
+    .buttonglob{
+        width:15%;
+    }
+    .icons{
+        width:100%;
+    }
+    .icons h5{
+        margin-top: 1px;
+        margin-left: 80px;
+        font-family: Okra, Helvetica, sans-serif;
+        font-weight: 500;   
+    }
+    .image1{
+        width:23px;
+    }
+    .image2{
+        width:23px;
+    }
+    .image3{
+        width:23px;
+    }
+    .image4{
+        width:23px;
+    }
+    .image5{
+        width:23px;
+    }
+    .iconimages{
+        margin-left: 140px;
+    }
+    .logos{
+        width:100%;
+        height:100px;
+        margin-top: 25px;
+    }
+    .logoimage1{
+        width:25%;
+    }
+    .logoimage2{
+        width:25%;
+    }
+    .logoimages{
+        margin-left:150px; 
+    }
+    .conclude{
+        width:600px;
+        height:100px;
+    }
+    .line{
+        margin-left:20px;
+        margin-right:100px;
+    }
+    .downpara{
+        margin-left: 10px;
+        margin-top: 25px;
+        font-size:10px;
+        opacity:0.7;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    
+    
+  }
+
+  .input1:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input2:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input3:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input4:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input5:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input6:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input7:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input8:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input9:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input10:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input11:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input12:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input13:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input14:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input15:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input16:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input17:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input18:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input19:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input20:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input21:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input22:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input23:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input24:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input25:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input26:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input27:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input28:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input29:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input30:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+
+
+
